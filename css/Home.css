@@ -1,0 +1,431 @@
+/* I am pleased that I have been able to build a simple website within 4-5 weeks. */
+
+@media only screen and (min-width: 768px) {
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  
+    .navbar {
+      background-color: #ffffff;
+    }
+  
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    li {
+      list-style: none;
+      padding-right: 20px;
+      padding-left: 20px;
+      font-size: 20px;
+      position: relative;
+      font-family: 'Open Sans', sans-serif;
+      line-height: 50%;
+      text-transform: uppercase;
+    }
+  
+    a:link {
+      color: #312384;
+    }
+  
+    a:visited {
+      color: #312384;
+    }
+  
+    a:hover {
+      color: #ff0000;
+      font-size: 25px;
+    }
+  
+    a:active {
+      color: #ff0000;
+      font-size: 25px;
+    }
+  
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #d3d3d3;
+    }
+  
+    #logo {
+      width: 140px;
+      height: 75px;
+      top: 0;
+      left: 0;
+      object-fit: cover;
+      padding-left: 0px;
+    }
+  
+    .home-image {
+      width: 100%;
+      height: 590px;
+      position: relative;
+      z-index: 1;
+    }
+  
+    .box {
+      position: relative;
+      width: 388px;
+      height: 192px;
+      top: 50px;
+      left: 20px;
+      z-index: 2;
+    }
+  
+    .background-image1 {
+      height: 600px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url("../img/downtown.jpg");
+    }
+  
+    .blur-background {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: #ffffff;
+      filter: blur(4px);
+      z-index: 1;
+    }
+  
+    .web-title {
+      position: relative;
+      width: 294px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      color: #312384;
+      font-size: 30px;
+      letter-spacing: 0;
+      z-index: 2;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 12px;
+      letter-spacing: 2px;
+    }
+  
+    .slogan {
+      position: relative;
+      z-index: 2;
+      padding-left: 60px;
+      width: 294px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      color: #312384;
+      font-size: 14px;
+      letter-spacing: 0;
+      padding-top: 28px;
+      line-height: 18px;
+    }
+  
+    .strong,
+    .strong2,
+    .strong3 {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      letter-spacing: 0;
+      font-weight: bold;
+    }
+  
+    .strong {
+      padding-left: 525px;
+      padding-right: 525px;
+      padding-top: 60px;
+      padding-bottom: 20px;
+    }
+  
+    .strong2 {
+      padding-left: 585px;
+      padding-right: 585px;
+      padding-top: 60px;
+      padding-bottom: 20px;
+    }
+  
+    .strong3 {
+      padding-left: 680px;
+      padding-right: 680px;
+      padding-top: 60px;
+      padding-bottom: 20px;
+    }
+  
+    .Paragraph1,
+    .Paragraph2 {
+      font-size: 16px;
+      font-family: 'Open Sans', sans-serif;
+      word-spacing: -1px;
+      text-indent: -3px;
+    }
+  
+    .Paragraph1,
+    .Paragraph2.intro::first-letter,
+    .Paragraph1.intro::first-letter,
+    .Paragraph2.intro::after,
+    .Paragraph1.intro::after {
+      font-size: 180%;
+      content: '';
+    }
+  
+    .Paragraph1 {
+      padding-left: 210px;
+      padding-right: 210px;
+      padding-bottom: 40px;
+      font-size: 20px;
+      font-family: 'Open Sans', sans-serif;
+    }
+  
+    .Paragraph2 {
+      padding-left: 210px;
+      padding-right: 210px;
+      padding-bottom: 40px;
+      font-size: 20px;
+      font-family: 'Open Sans', sans-serif;
+    }
+  
+    .DroneShot,
+    .Albert {
+      display: flex;
+      justify-content: center;
+      width: 1350px;
+      height: 556px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .heading {
+      display: flex;
+      justify-content: center;
+      justify-content: space-between;
+      font-size: 20px;
+      padding-top: 50px;
+      padding-bottom: 15px;
+      padding-left: 195px;
+      padding-right: 180px;
+      font-family: 'Open Sans', sans-serif;
+    }
+  
+    .images {
+      display: flex;
+      justify-content: center;
+      justify-content: space-between;
+      padding-right: 80px;
+      padding-left: 80px;
+    }
+  
+    .cookies-message {
+      position: fixed;
+      bottom: 0;
+      width: 25%;
+      background-color: rgba(255, 255, 255, 0.8);
+      text-align: center;
+      padding: 10px;
+      z-index: 9999;
+      font-family: 'Open Sans', sans-serif;
+      line-height: 20px;
+      backdrop-filter: blur(5px);
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+  
+    .map {
+      display: flex;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    footer {
+      border: 1px solid;
+      border-color: black;
+      border-style: inherit;
+      width: 100%;
+      height: 270px;
+      box-sizing: border-box;
+      margin-top: 110px;
+      background-color: #ffffff;
+    }
+  
+    .content {
+      width: 100%;
+      padding: 50px 30px 20px;
+    }
+  
+    .icons {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .icons a {
+      text-decoration: none;
+      padding: 40px;
+      margin: 0px;
+      line-height: 5px;
+    }
+  
+    .icons a i {
+      font-size: 2em;
+    }
+  
+    .footer-list ul {
+        display: flex;
+        justify-content: center;
+        font-family: 'Open Sans', sans-serif;
+        padding-left: 90px;
+        padding-right: 90px;
+      }
+      
+      .copyrigts {
+        padding-bottom: 0px;
+        padding-top: 20px;
+        padding-left: 550px;
+        padding-right: 550px;
+        line-height: 50px;
+        color: #312384;
+      }
+      }
+      
+      @media only screen and (max-width: 768px) {
+        body {
+          background-color: #d3d3d3;
+        }
+      
+        .nav {
+          display: flex;
+          justify-content: space-between;
+          justify-content: space-evenly;
+        }
+      
+        .navbar {
+          height: 0px;
+        }
+      
+        #logo {
+          display: none;
+        }
+      
+        li {
+          list-style: none;
+          margin-right: 5px;
+        }
+      
+        .box {
+          position: relative;
+          width: 388px;
+          height: 192px;
+          top: 50px;
+          left: 20px;
+          z-index: 2;
+        }
+      
+        .background-image1 {
+          height: 400px;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-image: url("../img/downtown.jpg");
+        }
+      
+        .blur-background {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background-color: #ffffff;
+          filter: blur(4px);
+          z-index: 1;
+        }
+      
+        .web-title {
+          position: relative;
+          width: 294px;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 700;
+          color: #312384;
+          font-size: 30px;
+          letter-spacing: 0;
+          z-index: 2;
+          margin-left: auto;
+          margin-right: auto;
+          padding-top: 12px;
+          letter-spacing: 2px;
+        }
+      
+        .slogan {
+          position: relative;
+          z-index: 2;
+          padding-left: 60px;
+          width: 294px;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 700;
+          color: #312384;
+          font-size: 14px;
+          letter-spacing: 0;
+          padding-top: 28px;
+          line-height: 18px;
+        }
+      
+        .DroneShot {
+          width: 470px;
+          height: 340px; 
+        }
+      
+        .images {
+          padding-left: 30px;
+          padding-right: 30px;
+        }
+      
+        .heading {
+          padding-left: 180px;
+        }
+      
+        .Albert {
+          width: 470px;
+          height: 340px;
+        }
+      
+        .map {
+          width: 470px;
+          height: 340px;  
+        }
+      
+        .cookies-message {
+          position: fixed;
+          bottom: 0;
+          width: 40%;
+          height: 30%;
+          background-color: rgba(255, 255, 255, 0.8);
+          text-align: center;
+          padding: 10px;
+          z-index: 9999;
+          font-family: 'Open Sans', sans-serif;
+          line-height: 20px;
+          backdrop-filter: blur(5px);
+          border-top: 1px solid rgba(0, 0, 0, 0.1);
+          font-size: 12px;
+        }
+      
+        .footer-list ul {
+          display: flex;
+          justify-content: center;
+          font-family: 'Open Sans', sans-serif;
+          padding-left: 90px;
+          padding-right: 90px;
+        }
+      
+        .icons {
+          display: flex;
+          justify-content: center;
+        }
+      
+        .icons a {
+          text-decoration: none;
+          padding: 40px;
+          margin: 0px;
+          line-height: 5px;
+        }
+      
+        .icons a i {
+          font-size: 2em;
+        }
+      }

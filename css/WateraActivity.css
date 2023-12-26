@@ -1,0 +1,474 @@
+/* I am pleased that I have been able to build a simple website within 4-5 weeks.*/
+@media only screen and (min-width:768px){
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #ffffff;
+
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+  padding-right: 20px; 
+  padding-left: 20px;
+  font-size: 20px;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 50%;
+  text-transform: uppercase;
+}
+
+a:link {
+  color:#312384;
+}
+
+
+a:visited {
+  color:#312384;
+}
+
+a:hover {
+  color:  #FF0000;
+  font-size: 25px;
+}
+
+
+a:active {
+  color:#FF0000;
+  font-size: 25px;
+}
+   
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #d3d3d3;
+}
+#logo { 
+  width: 140px;
+  height: 75px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  padding-left: 0px;
+}
+
+.home-image {
+  width: 100%;
+  height: 590px;
+  position: relative; 
+  z-index: 1; 
+}
+
+.box {
+  position: relative;
+  width: 388px;
+  height: 192px;
+  top: 50px;
+  left: 20px;
+  z-index: 2;
+}
+.background-image1 {
+  height: 600px;
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-image: url("../img/Boat.jpg");
+}
+
+.blur-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  filter: blur(4px);
+  z-index: 1; 
+}
+
+.web-title {
+  position: relative;
+  width: 294px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #312384;
+  font-size: 30px;
+  letter-spacing: 0;
+  z-index: 2; 
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 12px;
+  letter-spacing: 2px;
+}
+
+.slogan {
+  position: relative;
+  z-index: 2;
+ padding-left: 60px;
+ width: 294px;
+ font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #312384;
+  font-size: 14px;
+  letter-spacing: 0;
+  padding-top: 28px;
+  line-height: 18px;
+
+}
+
+.slogan2 {
+  position: relative;
+  z-index: 2;
+ width: 294px;
+ font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #312384;
+  font-size: 14px;
+  letter-spacing: 0;
+ 
+
+}
+
+
+
+.navbar {
+  background-color: #ffffff;
+
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+  padding-right: 20px; 
+  padding-left: 20px;
+  font-size: 20px;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 50%;
+}
+
+a:link {
+  color:#312384;
+}
+
+
+a:visited {
+  color:#312384;
+}
+
+a:hover {
+  color:  #FF0000;
+  font-size: 25px;
+}
+
+
+a:active {
+  color:#FF0000;
+  font-size: 25px;
+}
+   
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #d3d3d3;
+}
+#logo { 
+  width: 140px;
+  height: 75px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  padding-left: 0px;
+}
+
+.home-image {
+  width: 100%;
+  height: 590px;
+  position: relative; 
+  z-index: 1; 
+}
+
+.box {
+  position: relative;
+  width: 388px;
+  height: 192px;
+  top: 50px;
+  left: 20px;
+  z-index: 2;
+}
+.background-image1 {
+  height: 600px;
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-image: url("../img/Boat.jpg");
+}
+
+.blur-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  filter: blur(4px);
+  z-index: 1; 
+}
+
+.web-title {
+  position: relative;
+  width: 294px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #312384;
+  font-size: 30px;
+  letter-spacing: 0;
+  z-index: 2; 
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 12px;
+  letter-spacing: 2px;
+}
+
+.slogan {
+  position: relative;
+  z-index: 2;
+ padding-left: 60px;
+ width: 294px;
+ font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #312384;
+  font-size: 14px;
+  letter-spacing: 0;
+  padding-top: 28px;
+  line-height: 18px;
+
+}
+
+.slogan2 {
+  position: relative;
+  z-index: 2;
+ width: 294px;
+ font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #312384;
+  font-size: 14px;
+  letter-spacing: 0;
+ 
+
+}
+
+.strong {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0; 
+  padding-left: 525px;
+  padding-right: 525px;
+  padding-top: 60px; 
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+.Paragraph1 {
+  padding-left: 225px;  
+  padding-right: 225px;  
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 10px;
+  word-spacing: -1px;
+  text-indent: 0;
+}
+
+.Paragraph1.intro::first-letter , .Paragraph1.intro::after {
+  font-size: 120%; 
+  content: "";
+}
+.image-container {
+  display: flex;
+  margin-bottom: 3px;
+}
+
+
+.boat1-image {
+  width: 892px;
+  height: 400px;
+  margin: 0px;
+  margin-left: auto;margin-right: auto;
+}
+
+
+
+.aside-image1{
+  max-width: 100%;
+  margin: 5px 2px; 
+  padding-left: 228px;
+ 
+}
+
+.aside-image2{
+  max-width: 120%;
+  margin: 5px 2px; 
+
+ 
+}
+
+.strong2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0; 
+    padding-left: 230px;
+    padding-right: 230px;
+    font-weight: bold;
+    line-height: 80px;
+    
+}
+.map {
+
+  display: flex;
+  justify-content: center;
+  margin-left: auto;margin-right: auto;
+}
+
+footer {
+  border: 1px solid black;
+  width: 100%; 
+  height: 270px;
+  box-sizing: border-box; 
+  margin-top: 110px; 
+  background-color: #ffffff; 
+}
+
+.content {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: space-around; 
+  height: 100%; 
+  padding: 20px; 
+}
+
+.icons,
+.footer-list,
+.copyrigts {
+  text-align: center; 
+}
+
+.icons {
+  display: flex; 
+  justify-content: center; 
+  gap: 20px; 
+}
+
+.icons a {
+  text-decoration: none;
+}
+
+.icons i {
+  font-size: 2em;
+}
+
+.footer-list ul {
+  list-style: none; 
+  padding: 0; 
+  margin: 0; 
+  display: flex; 
+  gap: 20px; 
+}
+
+.footer-list a {
+  text-decoration: none; 
+}
+
+.copyrigts {
+  font-style: italic; 
+  color: #312384; 
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+      background-color: #d3d3d3;
+  }
+
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-evenly;
+
+  }
+  .navbar {
+      height: 0px;
+      margin-bottom: 30px;
+  }
+
+  #logo {
+      display: none;
+  }
+
+  li {
+      list-style: none;
+      margin-right: 5px;
+      font-size: 15px;
+  }
+  .box {
+      display: none;
+  }
+  .background-image1 {
+      height: 350px;
+      background-size: cover; 
+      background-position: center; 
+      background-repeat: no-repeat; 
+      background-image: url("../img/Boat.jpg")
+  }
+  .aside-image1 {
+    width: 490px;
+    height: 340px;
+  }
+  .aside-image2 {
+    width: 490px;
+    height: 340px;
+  }
+  .map {
+    width: 490px;
+    height: 340px;
+  }
+  .boat1-image {
+    width: 490px;
+    height: 340px;
+  }
+
+  .footer-list ul {
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 1px;
+    font-size: 12px;
+   }
+
+   .icons{
+    display: flex;
+    justify-content: center;
+}
+.icons a {
+    text-decoration: none;
+    padding: 40px;
+    margin: 0px;
+    line-height: 5px;
+}
+.icons a i {
+    font-size: 2em;
+}
+}

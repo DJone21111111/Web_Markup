@@ -1,0 +1,290 @@
+/* I am pleased that I have been able to build a simple website within 4-5 weeks.*/
+@media only screen and (min-width:768px){
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    background-color: #ffffff;
+  
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  li {
+    list-style: none;
+    padding-right: 20px; 
+    padding-left: 20px;
+    font-size: 20px;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 50%;
+    text-transform: uppercase;
+  }
+  
+  a:link {
+    color:#312384;
+  }
+  
+  
+  a:visited {
+    color:#312384;
+  }
+  
+  a:hover {
+    color:  #FF0000;
+    font-size: 25px;
+  }
+  
+  
+  a:active {
+    color:#FF0000;
+    font-size: 25px;
+  }
+     
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #d3d3d3;
+  }
+  #logo { 
+    width: 140px;
+    height: 75px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    padding-left: 0px;
+  }
+  
+  .home-image {
+    width: 100%;
+    height: 590px;
+    position: relative; 
+    z-index: 1; 
+  }
+  
+  .box {
+    position: relative;
+    width: 388px;
+    height: 192px;
+    top: 50px;
+    left: 20px;
+    z-index: 2;
+  }
+  .background-image1 {
+    height: 600px;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-image: url("../img/Tax.jpeg");
+  }
+  
+  .blur-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    filter: blur(4px);
+    z-index: 1; 
+  }
+  
+  .web-title {
+    position: relative;
+    width: 294px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #312384;
+    font-size: 30px;
+    letter-spacing: 0;
+    z-index: 2; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 12px;
+    letter-spacing: 2px;
+  }
+  
+  .slogan {
+    position: relative;
+    z-index: 2;
+   padding-left: 60px;
+   width: 294px;
+   font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #312384;
+    font-size: 14px;
+    letter-spacing: 0;
+    padding-top: 28px;
+    line-height: 18px;
+  
+  }
+  
+
+  .strong {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0; 
+    padding-left: 430px;
+    padding-right: 430px;
+    padding-top: 60px; 
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.Paragraph1 {
+    padding-left: 210px;  
+    padding-right: 210px;  
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 40px;
+    word-spacing: -1px;
+    text-indent: 0;
+}
+.Paragraph1.intro::first-letter , .Paragraph1.intro::after {
+    font-size: 120%; 
+    content: "";
+  }
+  
+  .heading{
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    padding-left: 310px;
+    padding-right: 340px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.images{
+   display: flex;
+   justify-content: space-around;
+    padding-right: 180px;
+    padding-left: 190px;
+    
+    
+}
+
+footer {
+    border: 1px solid black;
+    width: 100%; 
+    height: 270px;
+    box-sizing: border-box; 
+    margin-top: 110px; 
+    background-color: #ffffff; 
+  }
+  
+  .content {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: space-around; 
+    height: 100%; 
+    padding: 20px; 
+  }
+  
+  .icons,
+  .footer-list,
+  .copyrigts {
+    text-align: center; 
+  }
+  
+  .icons {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+  }
+  
+  .icons a {
+    text-decoration: none;
+  }
+  
+  .icons i {
+    font-size: 2em;
+  }
+  
+  .footer-list ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    gap: 20px; 
+  }
+  
+  .footer-list a {
+    text-decoration: none; 
+  }
+  
+  .copyrigts {
+    font-style: italic; 
+    color: #312384; 
+  }
+
+}
+
+  @media only screen and (max-width: 768px) {
+    body {
+        background-color: #d3d3d3;
+    }
+  
+  
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      justify-content: space-evenly;
+  
+    }
+    .navbar {
+        height: 0px;
+        margin-bottom: 30px;
+    }
+  
+    #logo {
+        display: none;
+    }
+  
+    li {
+        list-style: none;
+        margin-right: 5px;
+        font-size: 15px;
+    }
+    .box {
+        display: none;
+    }
+    .background-image1 {
+        height: 350px;
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-image:  url("../img/Tax.jpeg");
+    }
+
+        .footer-list ul {
+          display: flex;
+          justify-content: center;
+          font-family: 'Open Sans', sans-serif;
+          padding-left: 0px;
+          padding-right: 0px;
+          font-size: 12px;
+         }
+      
+         .icons{
+          display: flex;
+          justify-content: center;
+      }
+      .icons a {
+          text-decoration: none;
+          padding: 40px;
+          margin: 0px;
+          line-height: 5px;
+      }
+      .icons a i {
+          font-size: 2em;
+      }
+    }
